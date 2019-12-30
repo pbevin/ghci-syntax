@@ -53,7 +53,7 @@ syntax match ghciComment "\v--.*$"
 syntax match ghciSpecial ":{"
 syntax match ghciSpecial ":}"
 
-highlight link ghciModule Underlined
+highlight link ghciModule Normal
 highlight link ghciParens Special
 highlight link ghciOperator Number
 highlight link ghciIdentifier Identifier
@@ -64,7 +64,7 @@ highlight link ghciDefinition Structure
 highlight link ghciFlag Special
 highlight link stringSpecial Special
 highlight link ghciSpecial Special
-highlight link ghciString Comment
+highlight link ghciString String
 highlight link ghciComment Comment
 
 let b:current_syntax = 'ghci'
